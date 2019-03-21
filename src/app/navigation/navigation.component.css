@@ -1,0 +1,14 @@
+div {
+  border: solid red 1px;
+}
+
+.nav-container {
+  display: flex;
+  background: #062727;
+  color: #ffffff;
+
+}
+
+.nav-search {
+  flex: 1;
+}
