@@ -1,8 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <!doctype html>
-<html lang="en">
-  <app-navigation></app-navigation>
-  
+<app-navigation></app-navigation>
+<div>
+  {{googleClientId}}
+</div>
 
-  <router-outlet></router-outlet>
-</html>
+<router-outlet></router-outlet>
+<!-- Google Login Script -->
+<!-- TODO: Move this into its own component for use reuse -->
+<script type="text/javascript" src="https://apis.google.com/js/platform.js" async defer></script>
